@@ -65,10 +65,10 @@ Processingって何だろう？
 
 ### 資料など
 
-- 本日の資料は[こちら]()にupしてあります
+- 本日の資料は[こちら](https://github.com/kn1kn1/osc2016/blob/master/slide.pdf)にupしてあります
 
-- 質問は時間が余ったらセミナー時間中にお答えするかもですが、
-  基本的にはセミナー終了後、個別にお伺い致します m(_ _)m
+- 質問は、時間が余ったらセミナー時間中にお答えするかもですが、
+  基本的にはセミナー終了後、個別にお伺い致します m()m
 
 ---
 
@@ -91,7 +91,7 @@ ___
 
 #### Sonic Pi
 
-<img src="http://sonic-pi.net/images/logo.png" width="150" height="150" />
+<img src="https://raw.githubusercontent.com/kn1kn1/osc2016/master/images/sonicpi.png" width="150" height="150" />
 
 - http://sonic-pi.net/
 - "The Live Coding Synth for Everyone"
@@ -104,8 +104,8 @@ ___
 
 #### Haskap Jam Pack
 
-<img src="https://raw.githubusercontent.com/siaflab/haskap-jam-pack/master/haskap.png" width="80" height="80" />
-<img src="http://haskap-jp.cms-marimo.com/images/siaflab%281%29.jpg" width="80" height="80" />
+<img src="https://raw.githubusercontent.com/kn1kn1/osc2016/master/images/haskap.png" width="80" height="80" />
+<img src="https://github.com/kn1kn1/osc2016/raw/master/images/siaflab.jpg" width="80" height="80" />
 
 - https://github.com/siaflab/haskap-jam-pack
 - "an extension package for Sonic Pi"
@@ -118,7 +118,7 @@ ___
 
 ### Clojure
 
-<img src="https://clojure.org/images/clojure-logo-120b.png" width="120" height="120" />
+<img src="https://raw.githubusercontent.com/kn1kn1/osc2016/master/images/clojure-logo-120b.png" width="120" height="120" />
 
 - JVM上で動作するLISP系言語
 
@@ -133,7 +133,7 @@ ___
 
 - Javaの資産がほぼそのまま使える
 
-- ソースコード(hello-clj.clj)で説明します
+- ソースコード([hello-clj.clj](https://github.com/kn1kn1/osc2016/blob/master/hello_clj.clj))で説明します
 
 ---
 
@@ -148,11 +148,11 @@ ___
 
 ### SuperCollider
 
-<img src="https://raw.githubusercontent.com/supercollider/supercollider.github.io/master/images/sc_cube_128x128.png" width="128" height="128" />
+<img src="https://raw.githubusercontent.com/kn1kn1/osc2016/master/images/sc_cube_128x128.png" width="128" height="128" />
 
 - https://supercollider.github.io/
 
-- リアルタイム音響合成とアルゴリズミック・コンポジションに特化したプログラミング言語
+- シンセサイザー・サンプラー・シーケンサーのためのプログラミング言語と統合開発環境
 
 - 1996年にJames McCartneyによって開発・発表
 
@@ -164,7 +164,7 @@ ___
 
 - Pbindでシンセ、音程、持続時間などを結びつけて音を鳴らす
 
-- ソースコード(hello-sc.scd)で説明します
+- ソースコード([hello-sc.scd](https://github.com/kn1kn1/osc2016/blob/master/hello-sc.scd))で説明します
 
 ---
 
@@ -193,7 +193,7 @@ ___
 
 ### Overtone
 
-<img src="https://raw.githubusercontent.com/overtone/overtone/master/resources/overtone-logo.png" width="130" height="143" />
+<img src="https://raw.githubusercontent.com/kn1kn1/osc2016/master/images/overtone-logo.png" width="130" height="143" />
 <!-- 391x429 -->
 
 - https://overtone.github.io/
@@ -230,7 +230,7 @@ ___
 
 ---
 
-- ソースコード(hello_overtone.clj)
+- ソースコード([hello_overtone.clj](https://github.com/kn1kn1/osc2016/blob/master/hello_overtone.clj))
 
 ---
 
@@ -258,8 +258,8 @@ ___
 
 - Javaベース
   - 当初はJavaアプリケーションを生成する環境として
-  - Androidアプリケーション(apk)も開発できように(2012年くらい)
   - processing.js, p5.js もよく使われている
+  - Androidアプリケーション(apk)も開発できように(2012年くらい)
 
 ---
 
@@ -267,7 +267,7 @@ ___
 - setupで前処理
 - drawで描画処理
 
-- ソースコード(hello_processing.pde)で説明します
+- ソースコード([hello_processing.pde](https://github.com/kn1kn1/osc2016/blob/master/hello_processing/hello_processing.pde))で説明します
 
 ---
 
@@ -283,7 +283,7 @@ ___
 
 ### Quil
 
-<img src="https://cloud.github.com/downloads/quil/quil/quil.png" width="125" height="110" />
+<img src="https://raw.githubusercontent.com/kn1kn1/osc2016/master/images/quil.png" width="125" height="110" />
 <!-- 500x440 -->
 
 - http://quil.info/
@@ -299,7 +299,9 @@ ___
 
 - Clojure版は、REPLで実行することにより動的にスケッチを変更することが可能
 
-  → 本家Processingには無い機能
+  → ~~本家Processingには無い機能~~
+
+  → REPL Modeを追加することで可能な模様
 
 ---
 
