@@ -2,6 +2,7 @@ float c = 0;
 float angle = 0;
 
 void setup() {
+  frameRate(30);
   colorMode(HSB);
   size(500, 500);
 }
